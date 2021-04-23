@@ -4,6 +4,20 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+select {
+  padding: 5px;
+  background-color: #141414;
+  color: #fff;
+  border-radius: 0.2rem;
+  border: solid 2px white;
+}
+select:hover {
+  cursor: pointer;
+}
+option {
+  cursor: pointer;
+}
+
 .movieImg:hover {
   transform: scale(1.1);
   filter: drop-shadow(0rem 0rem 1rem white);
